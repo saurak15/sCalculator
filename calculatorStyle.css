@@ -1,0 +1,75 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  padding-top: 50px;
+  
+  background-image: url("bgWlp.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  font-family: 'Baloo 2', cursive;
+ 
+}
+.container{
+  display :flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction :column;
+  height: 560px;
+  width: 320px;
+  border-radius: 23px;
+  gap: 20px;
+  box-shadow: 0 0 30px rgba(0,0,0,.6);
+  background-color: whitesmoke;
+  background: transparent;
+}
+#inputBox{
+  height: 60px;
+  width:240px;
+  border: none;
+  text-align: right;
+  border-radius: 40px;
+  padding: 10px 20px;
+  font-size: 38px;
+  font-family: 'Baloo 2', cursive;
+  background: transparent;
+  box-shadow: 0 0 10px rgba(0,0,0,.6);
+  color: white ;
+}
+button{
+  height:60px;
+  width :60px;
+  margin: 8px 5px;
+  border-radius: 50%;
+  border: none;
+  background :rgba(255,255,255,0.1);
+  color: white ;
+  font-size: 20px;
+  font-family: 'Baloo 2', cursive;
+ 
+  box-shadow: 0 0 8px rgba(0,0 ,0,.7)
+}
+button:hover{
+  height :60px;
+  width :60px;
+  margin: 8px 5px;
+  border-radius: 50%;
+  border: none;
+  
+  background: rgba(255,255,255,.5);
+  box-shadow: 0 0 20px rgba(0,0 ,0,.7);
+  cursor: pointer;
+  
+  
+}
+.operator{
+  color: lawngreen;
+}
